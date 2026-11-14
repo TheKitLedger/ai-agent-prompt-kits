@@ -1,0 +1,23 @@
+# GitHub Pages: set the source to the /docs folder.
+# After the repository exists, set url and baseurl, for example:
+#   url: https://USERNAME.github.io
+#   baseurl: /ai-agent-prompt-kits
+# and, if you use a custom domain later, url accordingly.
+title: The Kit Ledger
+tagline: Free AI agent prompt templates
+description: >-
+  Free AI agent prompt templates for inbox triage, content repurposing
+  and pre-deploy code review. Full kits from The Kit Ledger.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+lang: en-GB
+author: The Kit Ledger
+twitter:
+  card: summary
+show_downloads: true
+# Used by jekyll-github-metadata and jekyll-seo-tag once the repo is live.
+# Replace OWNER with the GitHub user or organisation that owns the repo.
+repository: TheKitLedger/ai-agent-prompt-kits
+url: https://thekitledger.github.io
+baseurl: /ai-agent-prompt-kits
