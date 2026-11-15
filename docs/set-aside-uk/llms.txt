@@ -1,0 +1,36 @@
+# Set Aside UK
+
+> A free 2026/27 tax pot calculator for UK sole traders in England, Wales and Northern Ireland, plus a paid planning kit. This is an estimate, not tax advice, and not Making Tax Digital software. It is not affiliated with HMRC.
+
+The working brand name is Set Aside UK, a proposed product of Fitz Butler-Smith, a UK sole trader. Figures were checked against GOV.UK on 14 November 2026 (Europe/London).
+
+## What the free calculator does
+
+- Estimates Income Tax and Class 4 National Insurance on trading profit for the tax year 6 April 2026 to 5 April 2027.
+- Applies the standard Personal Allowance of £12,570, withdrawn by £1 for every £2 of income above £100,000.
+- Uses England, Wales and Northern Ireland rates: 20% up to £37,700 of taxable income, 40% from £37,701 to £125,140, 45% thereafter.
+- Class 4 NI: 6% on profits over £12,570 up to £50,270, and 2% above £50,270.
+- Shows payments on account, with dates: 31 January 2027, 31 July 2027, 31 January 2028 and 31 July 2028. For a first-year filer, the large payment is usually 31 January 2028 (the bill plus the first instalment towards the next year), not January 2027.
+
+## What it does not do
+
+- It does not file a tax return or send Making Tax Digital quarterly updates. A web calculator or spreadsheet is not, on its own, Making Tax Digital software.
+- It does not calculate Scottish Income Tax, student loans, the High Income Child Benefit Charge, Marriage Allowance, savings or dividend tax, capital gains, or VAT payable.
+- It does not tell a named person what they must pay.
+
+## Official sources
+
+- Income Tax rates: https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past
+- Self-employed National Insurance: https://www.gov.uk/self-employed-national-insurance-rates
+- Payments on account: https://www.gov.uk/understand-self-assessment-bill/payments-on-account
+- HMRC estimator: https://www.gov.uk/self-assessment-tax-calculator
+- VAT registration: https://www.gov.uk/register-for-vat
+- Making Tax Digital software finder: https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax
+
+## Paid kit
+
+The paid kit (£19, one-off) is live at https://payhip.com/b/CgFcz. It adds a rolling 12-month VAT threshold tracker against £90,000, income and expense logs, an invoice log, and quote, invoice and payment-chaser templates. Listing link: https://payhip.com/b/CgFcz
+
+## Pages
+
+- [Tax pot calculator](index.html)

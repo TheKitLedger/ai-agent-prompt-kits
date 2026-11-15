@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UK sole trader tax pot calculator 2026/27 — Set Aside UK</title>
+  <meta name="description" content="Free estimate of how much Income Tax and Class 4 National Insurance a sole trader in England, Wales or Northern Ireland might set aside for 2026/27, including payments on account. Not tax advice. Not Making Tax Digital software.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Set Aside UK">
+  <meta name="date" content="2026-11-14">
+  <link rel="canonical" href="https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/">
+  <meta property="og:title" content="UK sole trader tax pot calculator 2026/27 — Set Aside UK">
+  <meta property="og:description" content="A free 2026/27 estimate for England, Wales and Northern Ireland, including the January payments-on-account figure. Not tax advice. Not Making Tax Digital software.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="UK sole trader tax pot calculator 2026/27 — Set Aside UK">
+  <meta name="twitter:description" content="Free 2026/27 tax pot estimate, including payments on account. Not tax advice. Not Making Tax Digital software.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Set Aside UK tax pot calculator 2026/27",
+    "url": "https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "inLanguage": "en-GB",
+    "isAccessibleForFree": true,
+    "description": "A free estimate of Income Tax and Class 4 National Insurance for UK sole traders in England, Wales and Northern Ireland for the 2026/27 tax year, including payments on account. Not tax advice and not Making Tax Digital software.",
+    "dateModified": "2026-11-14",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "GBP"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Set Aside UK",
+      "description": "A proposed product brand of Fitz Butler-Smith, a UK sole trader. Not affiliated with HMRC."
+    },
+    "disclaimer": "This is an estimate, not tax advice, financial advice or legal advice, and not HMRC-recognised or Making Tax Digital software."
+  }
+  </script>
+  <style>
+    :root {
+      --navy: #1b3a4b;
+      --teal: #2a6f7f;
+      --ink: #1a1a1a;
+      --muted: #4a5560;
+      --paper: #f4f1ea;
+      --card: #fffdf8;
+      --line: #d5d0c6;
+      --input: #eef6f8;
+      --warn: #8a3b00;
+      --alert: #7a1f1f;
+      --ok: #1e5a3a;
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 18px; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+    header, main, footer { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1.25rem; }
+    header { padding-top: 2rem; }
+    .kicker { font-family: Calibri, "Segoe UI", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.75rem; color: var(--teal); font-weight: 700; }
+    h1, h2, h3 { font-family: Calibri, "Segoe UI", sans-serif; color: var(--navy); line-height: 1.2; }
+    h1 { font-size: 2rem; margin: 0.3rem 0 0.8rem; }
+    h2 { font-size: 1.35rem; margin-top: 2rem; }
+    a { color: var(--teal); }
+    .banner {
+      background: #f8e6c8;
+      border-left: 4px solid var(--warn);
+      padding: 0.8rem 1rem;
+      margin: 1rem 0 1.5rem;
+      font-family: Calibri, "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 1.1rem 1.2rem;
+      margin: 1rem 0;
+    }
+    label { display: block; font-family: Calibri, "Segoe UI", sans-serif; font-weight: 700; color: var(--navy); margin-top: 0.9rem; }
+    .hint { display: block; font-weight: 400; color: var(--muted); font-size: 0.85rem; }
+    input[type="number"], select {
+      width: 100%;
+      max-width: 16rem;
+      font-size: 1rem;
+      padding: 0.45rem 0.5rem;
+      margin-top: 0.25rem;
+      border: 1px solid var(--line);
+      background: var(--input);
+      font-family: Calibri, "Segoe UI", sans-serif;
+    }
+    button {
+      font-family: Calibri, "Segoe UI", sans-serif;
+      font-size: 1rem;
+      background: var(--navy);
+      color: #fff;
+      border: 0;
+      padding: 0.6rem 1.1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    button:hover { background: var(--teal); }
+    button.secondary { background: transparent; color: var(--navy); border: 1px solid var(--navy); margin-left: 0.4rem; }
+    table { width: 100%; border-collapse: collapse; font-family: Calibri, "Segoe UI", sans-serif; }
+    th, td { text-align: left; padding: 0.45rem 0.3rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--navy); width: 65%; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .total td { font-weight: 700; font-size: 1.05rem; border-bottom: 0; }
+    .emphasis { background: var(--navy); color: #fff; }
+    .emphasis th, .emphasis td { color: #fff; border-color: #33586a; }
+    .note { font-size: 0.9rem; color: var(--muted); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    #results[hidden] { display: none; }
+    footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); margin-top: 2rem; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Set Aside UK</p>
+    <h1>Tax pot calculator for 2026/27</h1>
+    <p>A free estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account.</p>
+    <div class="banner" role="note">
+      <strong>This is an estimate, not tax advice, and not Making Tax Digital software.</strong>
+      It is not affiliated with HMRC. It does not file a return or send quarterly updates. Rates were checked against GOV.UK on 14 November 2026 (Europe/London). Check
+      <a href="https://www.gov.uk/self-assessment-tax-calculator">HMRC’s official estimator</a>,
+      or a qualified adviser, before you act.
+    </div>
+  </header>
+  <main>
+    <form id="calc-form" class="card" novalidate>
+      <h2>Your figures</h2>
+      <label for="profit">Estimated taxable trading profit for 2026/27 (£)
+        <span class="hint">Income minus allowable expenses, before tax. Do not enter turnover unless that is also your profit.</span>
+      </label>
+      <input id="profit" name="profit" type="number" min="0" step="0.01" inputmode="decimal" required value="30000">
+
+      <label for="firstYear">Is 2026/27 your first year of Self Assessment?
+        <span class="hint">Choose Yes if you had no Self Assessment bill for 2025/26. This changes the January 2027 and January 2028 figures.</span>
+      </label>
+      <select id="firstYear" name="firstYear">
+        <option value="yes" selected>Yes — first year</option>
+        <option value="no">No — I had a 2025/26 bill</option>
+      </select>
+
+      <div id="prior-fields" hidden>
+        <label for="lastBill">Last year’s Income Tax + Class 4 NI bill (£)
+          <span class="hint">The 2025/26 bill.</span>
+        </label>
+        <input id="lastBill" name="lastBill" type="number" min="0" step="0.01" inputmode="decimal" value="0">
+
+        <label for="poaPaid">Payments on account already made towards last year’s bill (£)
+          <span class="hint">Enter 0 if last year was your first year and you have not yet paid that bill. That is how HMRC’s first-year example works.</span>
+        </label>
+        <input id="poaPaid" name="poaPaid" type="number" min="0" step="0.01" inputmode="decimal" value="0">
+
+        <label for="paidOutsideLast">Tax paid outside Self Assessment last year (£)
+          <span class="hint">For example through PAYE. Leave at 0 if all of last year’s tax was paid through Self Assessment.</span>
+        </label>
+        <input id="paidOutsideLast" name="paidOutsideLast" type="number" min="0" step="0.01" inputmode="decimal" value="0">
+      </div>
+
+      <label for="paidOutsideThis">Tax expected to be paid outside Self Assessment for 2026/27 (£)
+        <span class="hint">Usually 0 for a typical sole trader with no PAYE.</span>
+      </label>
+      <input id="paidOutsideThis" name="paidOutsideThis" type="number" min="0" step="0.01" inputmode="decimal" value="0">
+
+      <button type="submit">Work out the estimate</button>
+      <button type="reset" class="secondary">Clear</button>
+    </form>
+
+    <section id="results" class="card" hidden aria-live="polite">
+      <h2>Estimate</h2>
+      <p id="result-intro" class="note"></p>
+      <table>
+        <tbody>
+          <tr><th scope="row">Profit used</th><td id="r-profit" class="num"></td></tr>
+          <tr><th scope="row">Personal Allowance after any taper</th><td id="r-pa" class="num"></td></tr>
+          <tr><th scope="row">Taxable income</th><td id="r-taxable" class="num"></td></tr>
+          <tr><th scope="row">Income Tax</th><td id="r-it" class="num"></td></tr>
+          <tr><th scope="row">Class 4 National Insurance</th><td id="r-c4" class="num"></td></tr>
+          <tr class="total"><th scope="row">Estimated 2026/27 bill</th><td id="r-bill" class="num"></td></tr>
+          <tr><th scope="row">Bill as a share of profit</th><td id="r-share" class="num"></td></tr>
+        </tbody>
+      </table>
+      <p id="r-c2" class="note"></p>
+      <h3>Payment timetable</h3>
+      <table>
+        <tbody>
+          <tr><th scope="row">Due 31 January 2027</th><td id="r-jan27" class="num"></td></tr>
+          <tr><th scope="row">Due 31 July 2027</th><td id="r-jul27" class="num"></td></tr>
+          <tr class="total emphasis"><th scope="row">Due 31 January 2028</th><td id="r-jan28" class="num"></td></tr>
+          <tr><th scope="row">Due 31 July 2028</th><td id="r-jul28" class="num"></td></tr>
+        </tbody>
+      </table>
+      <p class="note" id="r-jan28-note"></p>
+      <h3>Suggested set-aside</h3>
+      <table>
+        <tbody>
+          <tr><th scope="row">Monthly amount to cover the 2026/27 bill only</th><td id="r-month-bill" class="num"></td></tr>
+          <tr><th scope="row">Monthly amount to cover 31 January 2028, divided by 12</th><td id="r-month-jan" class="num"></td></tr>
+        </tbody>
+      </table>
+      <p class="note">These monthly figures are planning aids, not required payments. In a first year, setting aside only the bill divided by 12 is not enough for 31 January 2028, because that date can also include the first instalment towards the next year.</p>
+    </section>
+
+    <section>
+      <h2>How payments on account work</h2>
+      <p>Payments on account are two instalments towards your next Self Assessment bill, including Class 4 National Insurance if you are self-employed. Each payment is usually half of the tax you owed last year. They are due by midnight on 31 January and 31 July.</p>
+      <p>You must make them unless the tax you owed last year was less than £1,000, or last year you paid more than 80% of the tax you owed outside Self Assessment, for example through PAYE. You can ask HMRC to reduce them if you expect this year to be lower; interest can be charged if you reduce them too far.</p>
+      <p>If 2026/27 is your first year of Self Assessment, you usually pay the full 2026/27 bill on <strong>31 January 2028</strong>, plus the first instalment towards 2027/28 — not in January 2027. HMRC’s published example uses a £3,000 bill: January becomes £4,500 (£3,000 plus a first instalment of £1,500), and July is £1,500.</p>
+      <p>Source: <a href="https://www.gov.uk/understand-self-assessment-bill/payments-on-account">GOV.UK, Payments on account</a>. When checked on 14 November 2026, HMRC’s <a href="https://www.gov.uk/self-assessment-tax-calculator">Self Assessment estimator</a> was labelled for 2025 to 2026 and said it would not take payments towards your next tax bill into account.</p>
+    </section>
+
+    <section>
+      <h2>What this calculator leaves out</h2>
+      <ul>
+        <li>Scottish Income Tax, which uses different bands and rates</li>
+        <li>Student loan repayments</li>
+        <li>The High Income Child Benefit Charge</li>
+        <li>Marriage Allowance</li>
+        <li>Savings and dividend income, and capital gains</li>
+        <li>VAT you may have to charge or pay</li>
+      </ul>
+      <p>It treats your trading profit as your only income when applying the Personal Allowance taper above £100,000. Class 2 National Insurance is explained in the result, but voluntary Class 2 is not added to the pot automatically.</p>
+    </section>
+
+    <section>
+      <h2>Making Tax Digital</h2>
+      <p>This page is not Making Tax Digital software. A spreadsheet or a web calculator cannot, on its own, send quarterly updates or submit your tax return. If Making Tax Digital for Income Tax applies to you, you need HMRC-recognised software. Start here: <a href="https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax">HMRC’s software finder</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>The full kit, £19</h2>
+      <p>The paid Set Aside UK kit adds a VAT threshold tracker for the rolling 12-month £90,000 test, income and expense logs, an invoice log, and quote, invoice and polite chaser templates, as a one-off download. It is still an estimate, not tax advice, and still not Making Tax Digital software.</p>
+      <p><a href="https://payhip.com/b/CgFcz">Get the full kit on Payhip</a>.</p>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past">Income Tax rates and allowances</a></li>
+        <li><a href="https://www.gov.uk/self-employed-national-insurance-rates">Self-employed National Insurance rates</a></li>
+        <li><a href="https://www.gov.uk/understand-self-assessment-bill/payments-on-account">Payments on account</a></li>
+        <li><a href="https://www.gov.uk/register-for-vat">Register for VAT</a></li>
+        <li><a href="https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax">Making Tax Digital for Income Tax</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Set Aside UK is a proposed product brand of Fitz Butler-Smith, a UK sole trader. This site is unofficial. Figures checked 14 November 2026 (Europe/London).</p>
+  </footer>
+  <script>
+  (function () {
+    const PA = 12570, PA_TAPER_START = 100000, BASIC_LIMIT = 37700, HIGHER_LIMIT = 125140;
+    const BASIC_RATE = 0.20, HIGHER_RATE = 0.40, ADDITIONAL_RATE = 0.45;
+    const C4_LPL = 12570, C4_UPL = 50270, C4_MAIN = 0.06, C4_ADDL = 0.02;
+    const POA_MIN = 1000, POA_OUTSIDE = 0.80, C2_SPT = 7105;
+
+    const money = (n) => Math.round((n + Number.EPSILON) * 100) / 100;
+    const gbp = (n) => "£" + money(n).toLocaleString("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+    function personalAllowance(income) {
+      if (income <= PA_TAPER_START) return PA;
+      const reduction = Math.floor((income - PA_TAPER_START) / 2);
+      return Math.max(0, PA - reduction);
+    }
+    function incomeTax(profit) {
+      const pa = personalAllowance(profit);
+      const taxable = Math.max(0, profit - pa);
+      const basic = money(BASIC_RATE * Math.min(taxable, BASIC_LIMIT));
+      const higherBand = Math.min(Math.max(taxable - BASIC_LIMIT, 0), HIGHER_LIMIT - BASIC_LIMIT);
+      const higher = money(HIGHER_RATE * higherBand);
+      const additional = money(ADDITIONAL_RATE * Math.max(taxable - HIGHER_LIMIT, 0));
+      return { pa, taxable, incomeTax: money(basic + higher + additional) };
+    }
+    function class4(profit) {
+      const mainBand = Math.min(Math.max(profit - C4_LPL, 0), C4_UPL - C4_LPL);
+      const main = money(C4_MAIN * mainBand);
+      const addl = money(C4_ADDL * Math.max(profit - C4_UPL, 0));
+      return money(main + addl);
+    }
+    function poaRequired(bill, paidOutside) {
+      if (bill < POA_MIN) return false;
+      if (bill > 0 && paidOutside > POA_OUTSIDE * bill) return false;
+      return true;
+    }
+    function poaAmounts(bill, paidOutside) {
+      if (!poaRequired(bill, paidOutside)) return [0, 0];
+      const first = money(bill / 2);
+      return [first, money(bill - first)];
+    }
+    function calculate(input) {
+      const profit = Math.max(0, Number(input.profit) || 0);
+      const it = incomeTax(profit);
+      const c4 = class4(profit);
+      const bill = money(it.incomeTax + c4);
+      const firstYear = input.firstYear;
+      const lastBill = Math.max(0, Number(input.lastBill) || 0);
+      const poaPaid = Math.max(0, Number(input.poaPaid) || 0);
+      const paidOutsideLast = Math.max(0, Number(input.paidOutsideLast) || 0);
+      const paidOutsideThis = Math.max(0, Number(input.paidOutsideThis) || 0);
+      const [poa2728a, poa2728b] = poaAmounts(bill, paidOutsideThis);
+      let jan27 = 0, jul27 = 0, jan28bal, jan28, jul28 = poa2728b;
+      if (firstYear) {
+        jan28bal = bill;
+        jan28 = money(bill + poa2728a);
+      } else {
+        const [poa2627a, poa2627b] = poaAmounts(lastBill, paidOutsideLast);
+        const jan27bal = money(Math.max(0, lastBill - poaPaid));
+        jan27 = money(jan27bal + poa2627a);
+        jul27 = poa2627b;
+        jan28bal = money(Math.max(0, bill - poa2627a - poa2627b));
+        jan28 = money(jan28bal + poa2728a);
+      }
+      let c2 = "";
+      if (profit <= 0) c2 = "No profit entered.";
+      else if (profit < C2_SPT) c2 = "Profits are below the Small Profits Threshold. Class 2 is not treated as paid. You may choose to pay voluntary Class 2; this estimate does not add it automatically.";
+      else c2 = "Profits are at or above the Small Profits Threshold, so Class 2 is treated as paid. You do not have to pay Class 2. It is not included in this pot.";
+      return { profit, ...it, c4, bill, jan27, jul27, jan28, jul28, c2, firstYear };
+    }
+
+    const form = document.getElementById("calc-form");
+    const prior = document.getElementById("prior-fields");
+    const firstYear = document.getElementById("firstYear");
+    function togglePrior() {
+      prior.hidden = firstYear.value === "yes";
+    }
+    firstYear.addEventListener("change", togglePrior);
+    togglePrior();
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const result = calculate({
+        profit: document.getElementById("profit").value,
+        firstYear: firstYear.value === "yes",
+        lastBill: document.getElementById("lastBill").value,
+        poaPaid: document.getElementById("poaPaid").value,
+        paidOutsideLast: document.getElementById("paidOutsideLast").value,
+        paidOutsideThis: document.getElementById("paidOutsideThis").value
+      });
+      document.getElementById("result-intro").textContent =
+        "England, Wales and Northern Ireland rates for 6 April 2026 to 5 April 2027. This is an estimate, not a bill from HMRC.";
+      document.getElementById("r-profit").textContent = gbp(result.profit);
+      document.getElementById("r-pa").textContent = gbp(result.pa);
+      document.getElementById("r-taxable").textContent = gbp(result.taxable);
+      document.getElementById("r-it").textContent = gbp(result.incomeTax);
+      document.getElementById("r-c4").textContent = gbp(result.c4);
+      document.getElementById("r-bill").textContent = gbp(result.bill);
+      document.getElementById("r-share").textContent = result.profit > 0 ? (100 * result.bill / result.profit).toFixed(1) + "%" : "—";
+      document.getElementById("r-c2").textContent = result.c2;
+      document.getElementById("r-jan27").textContent = gbp(result.jan27);
+      document.getElementById("r-jul27").textContent = gbp(result.jul27);
+      document.getElementById("r-jan28").textContent = gbp(result.jan28);
+      document.getElementById("r-jul28").textContent = gbp(result.jul28);
+      document.getElementById("r-jan28-note").textContent = result.firstYear
+        ? "Because you marked 2026/27 as your first year, 31 January 2028 is usually the 2026/27 bill plus the first instalment towards 2027/28, if payments on account are required. January 2027 is usually £0.00 in that case."
+        : "31 January 2027 includes any balancing payment for 2025/26 plus the first instalment towards 2026/27, if required. 31 January 2028 includes the 2026/27 balancing payment plus the first instalment towards 2027/28.";
+      document.getElementById("r-month-bill").textContent = gbp(result.bill / 12);
+      document.getElementById("r-month-jan").textContent = gbp(result.jan28 / 12);
+      document.getElementById("results").hidden = false;
+      document.getElementById("results").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    form.addEventListener("reset", function () {
+      document.getElementById("results").hidden = true;
+      setTimeout(togglePrior, 0);
+    });
+
+    // Expose for tests in a non-module page
+    window.SetAsideUK = { calculate: calculate, money: money };
+  })();
+  </script>
+</body>
+</html>
