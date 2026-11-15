@@ -31,6 +31,7 @@ Weekly digest (free): https://fitzs-newsletter.beehiiv.com
 
 ## Other pages
 
+- [Set Aside UK tax pot calculator](docs/set-aside-uk/): Free 2026/27 estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account. Not tax advice. Not Making Tax Digital software. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/
 - [README](README.md): Quick start, comparison table, and FAQ.
 - [Licence](LICENSE): MIT for the samples only; paid kits are excluded.
 - [Contributing](CONTRIBUTING.md): Bug reports and new-kit requests.

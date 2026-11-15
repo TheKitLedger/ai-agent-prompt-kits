@@ -36,6 +36,10 @@ Each sample is a starter: the core system prompt plus one workflow. It is not th
 
 Shop: [payhip.com/TheKitLedger](https://payhip.com/TheKitLedger)
 
+## Tax pot calculator
+
+[UK sole trader tax pot calculator 2026/27](https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/) is a free estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account. It is an estimate, not tax advice, and not Making Tax Digital software.
+
 ## FAQ
 
 **What is this site?**  
