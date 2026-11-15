@@ -32,6 +32,9 @@ Weekly digest (free): https://fitzs-newsletter.beehiiv.com
 ## Other pages
 
 - [Set Aside UK tax pot calculator](docs/set-aside-uk/): Free 2026/27 estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account. Not tax advice. Not Making Tax Digital software. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/
+- [How much to set aside for tax (2026/27)](docs/set-aside-uk/guides/how-much-to-set-aside.html): Short guide using the calculator’s rates. A £30,000 example is £4,531.80. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/how-much-to-set-aside.html
+- [Payments on account, first-year Self Assessment](docs/set-aside-uk/guides/payments-on-account.html): Why a first 2026/27 year is usually paid on 31 January 2028, plus a first instalment. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/payments-on-account.html
+- [VAT registration threshold, £90,000](docs/set-aside-uk/guides/vat-registration-threshold.html): Rolling 12-month taxable turnover, not profit. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/vat-registration-threshold.html
 - [README](README.md): Quick start, comparison table, and FAQ.
 - [Licence](LICENSE): MIT for the samples only; paid kits are excluded.
 - [Contributing](CONTRIBUTING.md): Bug reports and new-kit requests.

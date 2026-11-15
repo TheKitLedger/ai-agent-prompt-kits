@@ -31,6 +31,17 @@ The working brand name is Set Aside UK, a proposed product of Fitz Butler-Smith,
 
 The paid kit (£19, one-off) is live at https://payhip.com/b/CgFcz. It adds a rolling 12-month VAT threshold tracker against £90,000, income and expense logs, an invoice log, and quote, invoice and payment-chaser templates. Listing link: https://payhip.com/b/CgFcz
 
+## Guides
+
+Short explainers for 2026/27. Each one links to the calculator and to the £19 kit. They are estimates, not tax advice, and not Making Tax Digital software. Figures were checked against GOV.UK on 15 November 2026 (Europe/London).
+
+- [How much to set aside for tax as a UK sole trader (2026/27)](guides/how-much-to-set-aside.html): Personal Allowance £12,570, England, Wales and Northern Ireland bands, and Class 4 at 6% then 2%. A £30,000 profit example is £4,531.80 of Income Tax and Class 4. A first-year 31 January 2028 figure in that example is £6,797.70 if payments on account apply.
+- [Payments on account explained (first-year Self Assessment)](guides/payments-on-account.html): Two instalments, each half of last year’s tax, due by midnight on 31 January and 31 July. Not required if last year’s tax was under £1,000 or more than 80% was paid outside Self Assessment. HMRC’s published example is a £3,000 bill: £4,500 on 31 January and £1,500 on 31 July.
+- [VAT registration threshold (£90,000 rolling 12 months)](guides/vat-registration-threshold.html): Register if taxable turnover goes over £90,000 in any 12 months, or is expected to in the next 30 days. This is turnover, not profit. The free calculator does not track it. The £19 kit includes a rolling tracker.
+
 ## Pages
 
 - [Tax pot calculator](index.html)
+- [How much to set aside](guides/how-much-to-set-aside.html)
+- [Payments on account](guides/payments-on-account.html)
+- [VAT registration threshold](guides/vat-registration-threshold.html)
