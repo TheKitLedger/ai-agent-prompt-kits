@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -122,6 +123,10 @@
     #results[hidden] { display: none; }
     footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); margin-top: 2rem; }
     ul { padding-left: 1.2rem; }
+    .cta { border-left: 4px solid var(--teal); }
+    a.button { display: inline-block; font-family: Calibri, "Segoe UI", sans-serif; background: var(--navy); color: #fff; text-decoration: none; padding: 0.6rem 1.1rem; font-weight: 700; }
+    a.button:hover { background: var(--teal); }
+    .header-cta { font-family: Calibri, "Segoe UI", sans-serif; font-size: 0.95rem; }
   </style>
 </head>
 <body>
@@ -135,6 +140,7 @@
       <a href="https://www.gov.uk/self-assessment-tax-calculator">HMRC’s official estimator</a>,
       or a qualified adviser, before you act.
     </div>
+    <p class="header-cta">Free weekly email from the maker: <a href="#digest">get the digest</a>.</p>
   </header>
   <main>
     <form id="calc-form" class="card" novalidate>
@@ -211,6 +217,13 @@
         </tbody>
       </table>
       <p class="note">These monthly figures are planning aids, not required payments. In a first year, setting aside only the bill divided by 12 is not enough for 31 January 2028, because that date can also include the first instalment towards the next year.</p>
+    </section>
+
+    <section class="card cta" id="digest">
+      <h2>Get the free weekly digest</h2>
+      <p>The maker of this calculator also writes The Kit Ledger, a free weekly email about the AI and agent tools that actually matter, tested for vibe coders.</p>
+      <p><a class="button" href="https://fitzs-newsletter.beehiiv.com/subscribe">Subscribe free</a></p>
+      <p class="note">Also free: the <a href="../safe-ai-inbox-checklist/">Safe AI inbox settings checklist</a>, for connecting ChatGPT, Claude or Gemini to Gmail or Outlook.</p>
     </section>
 
     <section>
@@ -390,3 +403,5 @@
   </script>
 </body>
 </html>
+
+

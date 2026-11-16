@@ -9,6 +9,8 @@ Lite, copy-paste prompt kits for ChatGPT, Claude, Cursor and similar agents. Eac
 
 These are for vibe coders, people building AI agents, and anyone who ships small tools or posts about tech and games.
 
+<p style="background:#eef6f8;border-left:4px solid #2a6f7f;padding:0.8em 1em;"><strong>Free weekly digest:</strong> the AI and agent tools that actually matter, tested for vibe coders. One email a week.<br><a href="https://fitzs-newsletter.beehiiv.com/subscribe" style="display:inline-block;margin-top:0.5em;background:#1b3a4b;color:#fff;padding:0.45em 1em;text-decoration:none;font-weight:bold;">Subscribe free</a> &nbsp; New: the free <a href="https://thekitledger.github.io/ai-agent-prompt-kits/safe-ai-inbox-checklist/">Safe AI inbox settings checklist</a>.</p>
+
 ## What's inside
 
 The free lite samples live in the `samples/` folder of [this project's GitHub repository]({{ site.github.repository_url | default: "https://github.com" }}):
@@ -35,6 +37,10 @@ Each sample is a starter: the core system prompt plus one workflow. It is not th
 | Ship-Ready Review Agent (lite) | Secrets-and-config first pass, with evidence and paste-ready fix prompts | Ship-Ready Review Agent | Six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), GO / FIX FIRST / NO-GO report, fix prompts, prompts for Cursor, Claude Code and chat agents, re-review after fixes | £24 | [Payhip](https://payhip.com/b/gl83D) |
 
 Shop: [payhip.com/TheKitLedger](https://payhip.com/TheKitLedger)
+
+## Free checklist: safe AI inbox settings
+
+The [Safe AI inbox settings checklist](https://thekitledger.github.io/ai-agent-prompt-kits/safe-ai-inbox-checklist/) is one page of settings to check before and after you connect ChatGPT, Claude or Gemini to Gmail or Outlook. Each setting name was checked against the provider's own help pages. There's also a [PDF version](https://thekitledger.github.io/ai-agent-prompt-kits/safe-ai-inbox-checklist/safe-ai-inbox-checklist.pdf).
 
 ## Tax pot calculator
 
@@ -72,6 +78,10 @@ The free samples are MIT-licensed. That licence does not cover the paid kits sol
 
 ## The weekly digest
 
-Subscribe free: [fitzs-newsletter.beehiiv.com](https://fitzs-newsletter.beehiiv.com)
+A free weekly digest of the AI and agent tools that actually matter, tested for vibe coders.
+
+<a href="https://fitzs-newsletter.beehiiv.com/subscribe" style="display:inline-block;background:#1b3a4b;color:#fff;padding:0.45em 1em;text-decoration:none;font-weight:bold;">Subscribe free</a>
 
 Made by [The Kit Ledger](https://payhip.com/TheKitLedger)
+
+
