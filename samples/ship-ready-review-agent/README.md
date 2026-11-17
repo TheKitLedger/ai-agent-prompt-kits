@@ -2,7 +2,7 @@
 
 A free first-pass review you run before putting an AI-built app on the internet. This lite version checks for leaked secrets and unsafe config only, then gives you a short punch-list.
 
-This is a lite sample from [The Kit Ledger](https://payhip.com/TheKitLedger). It is useful on its own. The [full Ship-Ready Review Agent kit](https://payhip.com/b/gl83D) also reviews auth, errors, data, deploy and rollback, and returns a go / fix-first / no-go verdict with paste-ready fix prompts.
+This is a lite sample from [The Kit Ledger](https://thekitledger.com). It is useful on its own. The [full Ship-Ready Review Agent kit](https://thekitledger.com/b/gl83D) also reviews auth, errors, data, deploy and rollback, and returns a go / fix-first / no-go verdict with paste-ready fix prompts.
 
 ## When to run it
 
@@ -55,4 +55,4 @@ The paid kit is a full pre-deploy review, not only a secrets check. It adds:
 - Ready-to-paste prompts for Cursor, Claude Code, and a chat agent, plus a re-review prompt after fixes
 - What to do after the report, and a plain note on what this review is not
 
-[Buy the Ship-Ready Review Agent kit on Payhip](https://payhip.com/b/gl83D)
+[Buy the Ship-Ready Review Agent kit on Payhip](https://thekitledger.com/b/gl83D)

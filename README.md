@@ -1,6 +1,6 @@
 # Free AI agent prompt templates: inbox triage, content repurposing, code review
 
-Lite, copy-paste prompt kits for ChatGPT, Claude, Cursor and similar agents. Each sample is useful on its own. The complete kits are sold by [The Kit Ledger](https://payhip.com/TheKitLedger).
+Lite, copy-paste prompt kits for ChatGPT, Claude, Cursor and similar agents. Each sample is useful on its own. The complete kits are sold by [The Kit Ledger](https://thekitledger.com).
 
 These are for vibe coders, people building AI agents, and anyone who ships small tools or posts about tech and games.
 
@@ -25,11 +25,11 @@ Each sample is a starter: the core system prompt plus one workflow. It is not th
 
 | Free sample | What the sample does | Full kit | What the paid kit adds | Price | Buy |
 | --- | --- | --- | --- | --- | --- |
-| [Inbox Triage Agent (lite)](samples/inbox-triage-agent/) | Three-label sort (Action, Later, Needs you) and draft replies, with safety rules and a first-run prompt | Inbox Triage Agent | Eight-label scheme, classification rubric, draft-reply patterns, daily digest template, extra prompts, seven-day review checklist, setup guide | £19 | [Payhip](https://payhip.com/b/XA6ah) |
-| [Content Repurposing Desk (lite)](samples/content-repurposing-desk/) | One source in, a short set of X posts out, in your voice, with a "do not invent" rule | Content Repurposing Desk | Voice worksheet, weekly workflow, recipes for X, short video and email, full output pack, second-cut prompts, human review checklist | £29 | [Payhip](https://payhip.com/b/Z9IQt) |
-| [Ship-Ready Review Agent (lite)](samples/ship-ready-review-agent/) | Secrets-and-config first pass, with evidence and paste-ready fix prompts | Ship-Ready Review Agent | Six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), GO / FIX FIRST / NO-GO report, fix prompts, prompts for Cursor, Claude Code and chat agents, re-review after fixes | £24 | [Payhip](https://payhip.com/b/gl83D) |
+| [Inbox Triage Agent (lite)](samples/inbox-triage-agent/) | Three-label sort (Action, Later, Needs you) and draft replies, with safety rules and a first-run prompt | Inbox Triage Agent | Eight-label scheme, classification rubric, draft-reply patterns, daily digest template, extra prompts, seven-day review checklist, setup guide | £19 | [Payhip](https://thekitledger.com/b/XA6ah) |
+| [Content Repurposing Desk (lite)](samples/content-repurposing-desk/) | One source in, a short set of X posts out, in your voice, with a "do not invent" rule | Content Repurposing Desk | Voice worksheet, weekly workflow, recipes for X, short video and email, full output pack, second-cut prompts, human review checklist | £29 | [Payhip](https://thekitledger.com/b/Z9IQt) |
+| [Ship-Ready Review Agent (lite)](samples/ship-ready-review-agent/) | Secrets-and-config first pass, with evidence and paste-ready fix prompts | Ship-Ready Review Agent | Six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), GO / FIX FIRST / NO-GO report, fix prompts, prompts for Cursor, Claude Code and chat agents, re-review after fixes | £24 | [Payhip](https://thekitledger.com/b/gl83D) |
 
-Shop: [payhip.com/TheKitLedger](https://payhip.com/TheKitLedger)
+Shop: [thekitledger.com](https://thekitledger.com)
 
 ## FAQ
 
@@ -46,7 +46,7 @@ Any agent that accepts a system prompt or project instructions, including ChatGP
 No. The inbox sample drafts replies only. The content sample drafts posts only. The review sample must not push, deploy, or rotate credentials.
 
 **How much do the full kits cost?**  
-Inbox Triage Agent is £19, Content Repurposing Desk is £29, and Ship-Ready Review Agent is £24. Current prices are on the [Payhip shop](https://payhip.com/TheKitLedger).
+Inbox Triage Agent is £19, Content Repurposing Desk is £29, and Ship-Ready Review Agent is £24. Current prices are on the [Payhip shop](https://thekitledger.com).
 
 **Can I use the samples in my own work?**  
 Yes. The free samples in this repository are under the MIT licence. The paid kits are not in this repository and are not covered by that licence.
@@ -65,4 +65,4 @@ The free samples are [MIT](LICENSE). That licence does not cover the paid kits s
 
 Subscribe free: [fitzs-newsletter.beehiiv.com](https://fitzs-newsletter.beehiiv.com)
 
-Made by [The Kit Ledger](https://payhip.com/TheKitLedger)
+Made by [The Kit Ledger](https://thekitledger.com)

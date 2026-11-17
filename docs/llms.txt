@@ -8,7 +8,7 @@ Audience: vibe coders, people building AI agents, and anyone who ships small too
 
 The free samples are MIT-licensed. The paid kits are not included in this repository and are not licensed under MIT.
 
-Shop: https://payhip.com/TheKitLedger
+Shop: https://thekitledger.com
 
 Weekly digest (free): https://fitzs-newsletter.beehiiv.com
 
@@ -20,9 +20,9 @@ Weekly digest (free): https://fitzs-newsletter.beehiiv.com
 
 ## Full paid kits
 
-- [Inbox Triage Agent, £19](https://payhip.com/b/XA6ah): A complete daily inbox setup. Adds an eight-label scheme, classification rubric, draft-reply patterns, daily digest template, extra prompts, a seven-day review checklist, and a setup guide.
-- [Content Repurposing Desk, £29](https://payhip.com/b/Z9IQt): A desk-in-a-folder for a week of drafts. Adds a voice worksheet, weekly workflow, recipes for X, short video and email, a full output pack, second-cut prompts, and a human review checklist.
-- [Ship-Ready Review Agent, £24](https://payhip.com/b/gl83D): A full pre-deploy review for agent-built apps. Adds a six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), a GO / FIX FIRST / NO-GO report, fix prompts, and prompts for Cursor, Claude Code and chat agents.
+- [Inbox Triage Agent, £19](https://thekitledger.com/b/XA6ah): A complete daily inbox setup. Adds an eight-label scheme, classification rubric, draft-reply patterns, daily digest template, extra prompts, a seven-day review checklist, and a setup guide.
+- [Content Repurposing Desk, £29](https://thekitledger.com/b/Z9IQt): A desk-in-a-folder for a week of drafts. Adds a voice worksheet, weekly workflow, recipes for X, short video and email, a full output pack, second-cut prompts, and a human review checklist.
+- [Ship-Ready Review Agent, £24](https://thekitledger.com/b/gl83D): A full pre-deploy review for agent-built apps. Adds a six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), a GO / FIX FIRST / NO-GO report, fix prompts, and prompts for Cursor, Claude Code and chat agents.
 
 ## Digest
 
