@@ -2,7 +2,7 @@
 
 A free starter for sorting new email with ChatGPT, Claude, Cursor, or a similar agent. It classifies recent mail into three buckets and never sends anything.
 
-This is a lite sample from [The Kit Ledger](https://payhip.com/TheKitLedger). It is useful on its own. The [full Inbox Triage Agent kit](https://payhip.com/b/XA6ah) adds a full label scheme, a classification rubric, reply patterns, a daily digest and a week-one checklist.
+This is a lite sample from [The Kit Ledger](https://thekitledger.com). It is useful on its own. The [full Inbox Triage Agent kit](https://thekitledger.com/b/XA6ah) adds a full label scheme, a classification rubric, reply patterns, a daily digest and a week-one checklist.
 
 ## Quick start
 
@@ -66,4 +66,4 @@ The paid kit is a complete daily setup, not a longer prompt. It adds:
 - Extra prompts for after a trip, and for tightening the rules after a week
 - A seven-day review checklist
 
-[Buy the Inbox Triage Agent kit on Payhip](https://payhip.com/b/XA6ah)
+[Buy the Inbox Triage Agent kit on Payhip](https://thekitledger.com/b/XA6ah)

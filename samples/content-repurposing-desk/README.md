@@ -2,7 +2,7 @@
 
 A free starter for turning one long piece — a transcript, blog post or notes — into a short set of X posts, in your voice, with no invented facts.
 
-This is a lite sample from [The Kit Ledger](https://payhip.com/TheKitLedger). It is useful on its own. The [full Content Repurposing Desk kit](https://payhip.com/b/Z9IQt) adds a voice worksheet, recipes for short video and email, a full output pack and a human review checklist.
+This is a lite sample from [The Kit Ledger](https://thekitledger.com). It is useful on its own. The [full Content Repurposing Desk kit](https://thekitledger.com/b/Z9IQt) adds a voice worksheet, recipes for short video and email, a full output pack and a human review checklist.
 
 ## Quick start
 
@@ -55,4 +55,4 @@ The paid kit is a desk-in-a-folder for a week of drafts, not only X posts. It ad
 - Extra prompts for a thin source, and for a sharper second cut
 - A human review checklist you run before anything is published
 
-[Buy the Content Repurposing Desk kit on Payhip](https://payhip.com/b/Z9IQt)
+[Buy the Content Repurposing Desk kit on Payhip](https://thekitledger.com/b/Z9IQt)

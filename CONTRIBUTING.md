@@ -18,4 +18,4 @@ This repository holds free lite samples of The Kit Ledger kits. The paid kits ar
 
 Say what problem you keep hitting, who it is for, and which tools you already use (for example ChatGPT, Claude, Cursor, Gmail, X). A short real example is more useful than a feature list.
 
-Questions about a purchase or a file you already bought are better sent through the Payhip shop: https://payhip.com/TheKitLedger
+Questions about a purchase or a file you already bought are better sent through the Payhip shop: https://thekitledger.com

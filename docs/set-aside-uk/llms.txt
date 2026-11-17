@@ -29,7 +29,7 @@ The working brand name is Set Aside UK, a proposed product of Fitz Butler-Smith,
 
 ## Paid kit
 
-The paid kit (£19, one-off) is live at https://payhip.com/b/CgFcz. It adds a rolling 12-month VAT threshold tracker against £90,000, income and expense logs, an invoice log, and quote, invoice and payment-chaser templates. Listing link: https://payhip.com/b/CgFcz
+The paid kit (£19, one-off) is live at https://thekitledger.com/b/CgFcz. It adds a rolling 12-month VAT threshold tracker against £90,000, income and expense logs, an invoice log, and quote, invoice and payment-chaser templates. Listing link: https://thekitledger.com/b/CgFcz
 
 ## Guides
 
