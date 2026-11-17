@@ -46,6 +46,9 @@ The [Safe AI inbox settings checklist](https://thekitledger.github.io/ai-agent-p
 
 [UK sole trader tax pot calculator 2026/27](https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/) is a free estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account. It is an estimate, not tax advice, and not Making Tax Digital software.
 
+- [Making Tax Digital for Income Tax from April 2027](https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/mtd-april-2027.html): who is in, the £30,000 threshold, and the quarterly dates. Not tax advice, and not Making Tax Digital software.
+- [Trading allowance: £1,000 now, £3,000 from 6 April 2027](https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/trading-allowance-2027.html): what still applies in 2026/27, and what the 28 October 2026 policy paper changes from 6 April 2027.
+
 ## FAQ
 
 **What is this site?**  

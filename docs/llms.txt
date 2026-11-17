@@ -1,0 +1,42 @@
+# The Kit Ledger — AI agent prompt kits
+
+> Free sample AI agent prompt templates for inbox triage, content repurposing and pre-deploy code review. Complete paid kits are sold on Payhip by The Kit Ledger.
+
+This repository is a public, copy-paste-ready set of lite samples. Each sample is useful on its own: a core system prompt plus one workflow, for ChatGPT, Claude, Cursor, Claude Code, or similar agents. The samples are intentionally incomplete. They are not the paid kits.
+
+Audience: vibe coders, people building AI agents, and anyone who ships small tools or posts about tech and games.
+
+The free samples are MIT-licensed. The paid kits are not included in this repository and are not licensed under MIT.
+
+Shop: https://payhip.com/TheKitLedger
+
+Weekly digest (free): https://fitzs-newsletter.beehiiv.com
+
+## Free samples
+
+- [Inbox Triage Agent (lite)](samples/inbox-triage-agent/): Sort new email into Action, Later or Needs you, draft short replies, and never send mail. Includes safety rules, a system prompt, and a first-run prompt.
+- [Content Repurposing Desk (lite)](samples/content-repurposing-desk/): Turn one transcript, blog post or set of notes into a short set of X posts, in the owner's voice, with no invented facts.
+- [Ship-Ready Review Agent (lite)](samples/ship-ready-review-agent/): A secrets-and-config first pass before a vibe-coded app gets a public URL. Returns evidence and paste-ready fix prompts. Does not push, deploy, or rotate credentials.
+
+## Full paid kits
+
+- [Inbox Triage Agent, £19](https://payhip.com/b/XA6ah): A complete daily inbox setup. Adds an eight-label scheme, classification rubric, draft-reply patterns, daily digest template, extra prompts, a seven-day review checklist, and a setup guide.
+- [Content Repurposing Desk, £29](https://payhip.com/b/Z9IQt): A desk-in-a-folder for a week of drafts. Adds a voice worksheet, weekly workflow, recipes for X, short video and email, a full output pack, second-cut prompts, and a human review checklist.
+- [Ship-Ready Review Agent, £24](https://payhip.com/b/gl83D): A full pre-deploy review for agent-built apps. Adds a six-area checklist (secrets, auth, environment, errors, data, deploy and rollback), a GO / FIX FIRST / NO-GO report, fix prompts, and prompts for Cursor, Claude Code and chat agents.
+
+## Digest
+
+- [The Kit Ledger newsletter](https://fitzs-newsletter.beehiiv.com): Free weekly AI tools digest.
+- [Issue 1: what actually shipped this week](https://fitzs-newsletter.beehiiv.com/p/the-kit-ledger-1-what-actually-shipped-this-week)
+
+## Other pages
+
+- [Set Aside UK tax pot calculator](docs/set-aside-uk/): Free 2026/27 estimate of Income Tax and Class 4 National Insurance for sole traders in England, Wales and Northern Ireland, including payments on account. Not tax advice. Not Making Tax Digital software. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/
+- [How much to set aside for tax (2026/27)](docs/set-aside-uk/guides/how-much-to-set-aside.html): Short guide using the calculator’s rates. A £30,000 example is £4,531.80. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/how-much-to-set-aside.html
+- [Payments on account, first-year Self Assessment](docs/set-aside-uk/guides/payments-on-account.html): Why a first 2026/27 year is usually paid on 31 January 2028, plus a first instalment. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/payments-on-account.html
+- [VAT registration threshold, £90,000](docs/set-aside-uk/guides/vat-registration-threshold.html): Rolling 12-month taxable turnover, not profit. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/vat-registration-threshold.html
+- [Making Tax Digital for Income Tax from April 2027](docs/set-aside-uk/guides/mtd-april-2027.html): Who needs to use it from 6 April 2027, the £30,000 qualifying-income test, and the quarterly update dates. An estimate, not tax advice, and not Making Tax Digital software. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/mtd-april-2027.html
+- [Trading allowance: £1,000 now, £3,000 from 6 April 2027](docs/set-aside-uk/guides/trading-allowance-2027.html): The current £1,000 allowance for 2026/27, and the increase published on 28 October 2026 with effect from 6 April 2027. An estimate, not tax advice. Live page: https://thekitledger.github.io/ai-agent-prompt-kits/set-aside-uk/guides/trading-allowance-2027.html
+- [README](README.md): Quick start, comparison table, and FAQ.
+- [Licence](LICENSE): MIT for the samples only; paid kits are excluded.
+- [Contributing](CONTRIBUTING.md): Bug reports and new-kit requests.
